@@ -1,0 +1,3 @@
+java -Dwebdriver.chrome.driver="C:\Users\Yuliya_Eibatava\.m2\repository\webdriver\chromedriver\win32\74.0.3729.6\chromedriver.exe" -Dwebdriver.opera.driver="C:\Users\Yuliya_Eibatava\.m2\repository\webdriver\operadriver\win32\2.45\operadriver.exe" -Dwebdriver.edgedriver="C:\WINDOWS\System32\MicrosoftWebDriver.exe\edge.exe" -jar selenium-server-standalone-3.141.0.jar -role node -nodeConfig nodeconfig.json 
+java -jar selenium-server-standalone-3.141.0.jar -role hub -hubConfig hubconfig.json
+cd Downloads\seleniumgrid
